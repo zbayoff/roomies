@@ -1,0 +1,11 @@
+[13-Jun-2018 17:49:53 America/Denver] PHP Warning:  require_once(../../../config.php): failed to open stream: No such file or directory in /home3/zachbayo/public_html/portfolio/roomies/assets/userData.php on line 6
+[13-Jun-2018 17:49:53 America/Denver] PHP Fatal error:  require_once(): Failed opening required '../../../config.php' (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home3/zachbayo/public_html/portfolio/roomies/assets/userData.php on line 6
+[13-Jun-2018 17:50:11 America/Denver] PHP Warning:  require_once(../../../config.php): failed to open stream: No such file or directory in /home3/zachbayo/public_html/portfolio/roomies/assets/userData.php on line 6
+[13-Jun-2018 17:50:11 America/Denver] PHP Fatal error:  require_once(): Failed opening required '../../../config.php' (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home3/zachbayo/public_html/portfolio/roomies/assets/userData.php on line 6
+[13-Jun-2018 18:06:30 America/Denver] PHP Notice:  Undefined variable: roomiesThatOwe in /home3/zachbayo/public_html/portfolio/roomies/assets/itemSummary.php on line 176
+[13-Jun-2018 18:06:30 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home3/zachbayo/public_html/portfolio/roomies/assets/itemSummary.php on line 176
+[13-Jun-2018 18:06:49 America/Denver] PHP Notice:  Undefined variable: roomiesThatOwe in /home3/zachbayo/public_html/portfolio/roomies/assets/itemSummary.php on line 176
+[13-Jun-2018 18:06:49 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home3/zachbayo/public_html/portfolio/roomies/assets/itemSummary.php on line 176
+[28-Jun-2018 17:38:03 America/Denver] PHP Notice:  Undefined variable: visitorArrivDate in /home3/zachbayo/public_html/portfolio/roomies/assets/addVisitor.php on line 144
+[28-Jun-2018 17:40:30 America/Denver] PHP Notice:  Undefined variable: roomiesThatOwe in /home3/zachbayo/public_html/portfolio/roomies/assets/itemSummary.php on line 175
+[28-Jun-2018 17:40:30 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home3/zachbayo/public_html/portfolio/roomies/assets/itemSummary.php on line 175
