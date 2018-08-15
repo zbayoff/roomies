@@ -14,6 +14,10 @@ ul {
     height: 40px;
 }
 
+.page-container {
+    min-height: calc(100vh - 290px)
+}
+
 /*---------Header-----------*/
 
 #banner {
@@ -742,7 +746,8 @@ input[name=numDays] {
 /*------------Login-----------------*/
 
 .login-container {
-    height: calc(100vh - 206px);
+    
+    min-height: calc(100vh - 206px);
     display: flex;
     justify-content: center;
     align-content: center;
@@ -759,6 +764,7 @@ input[name=numDays] {
 
 .register-container {
     /*    height: calc(100vh);*/
+    min-height: calc(100vh - 206px);
     display: flex;
     justify-content: center;
     align-content: center;

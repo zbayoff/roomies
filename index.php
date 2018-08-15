@@ -10,8 +10,7 @@ if (empty($_SESSION['group_name']) || !isset($_SESSION['group_name']) || !isset(
     header("location: groups.php");
 }
 
-// require config file
-require_once '../../../hidden/config.php';
+include '../../hidden/config.php';
 
 // define and initialize variables
 $groupname = "";
@@ -96,7 +95,7 @@ mysqli_close($link);
 
     <!-----End Nav----->
 
-    <div class="container-fluid">
+    <div class="container-fluid page-container">
         <div id="groupHeader" class="row justify-content-center">
             <div>
                 <h3>Welcome to <span class="ml-1"> <?php echo $_SESSION['group_name']; ?></span> </h3>

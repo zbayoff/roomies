@@ -2,7 +2,7 @@
 
 session_start();
 
-include '../../../../hidden/config.php';
+include '../../../hidden/config.php';
 
 // initialize
 $groupID = $_SESSION['group_id'];

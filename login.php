@@ -11,7 +11,7 @@ $email_err = $password_err = "";
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
     
     // Check if email is empty
-    if(empty(trim($_POST['email']))) {
+    if (empty(trim($_POST['email']))) {
         $email_err = "Please enter your email.";
     } else {
         $email = trim($_POST['email']);

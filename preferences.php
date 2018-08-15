@@ -6,8 +6,7 @@ if (!isset($_SESSION['email']) || empty($_SESSION['email'])) {
     header("location: login.php");
 }
 
-// require config file
-require_once '../../../hidden/config.php';
+include '../../hidden/config.php';
 
 
 // define and initialize variables
@@ -59,7 +58,7 @@ $userID = $_SESSION['user_id'];
 
     <!-----End Nav----->
 
-    <div class="container-fluid">
+    <div class="container-fluid page-container">
         <div class="row justify-content-center">
             <div class="info-block col-lg-8">
                 <div class="info-header">

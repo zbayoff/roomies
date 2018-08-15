@@ -9,7 +9,7 @@ if (!isset($_SESSION['email']) || empty($_SESSION['email'])) {
 }
 
 // require config file
-include '../../../hidden/config.php';
+include '../../hidden/config.php';
 
 // Define variables and initialize
 $groupname = $grouppassword = $groupID = "";
@@ -38,7 +38,7 @@ function displayGroups() {
     global $joinedgroupsmsg;
     $joinedgroupsmsg = "";
 
-    include '../../../hidden/config.php';
+    include '../../hidden/config.php';
 
     $userID = $_SESSION['user_id'];
     if (isset($_SESSION['group_name'])){
@@ -510,9 +510,9 @@ if ($_SERVER['REQUEST_METHOD'] == "POST"){
 
 <body>
     <?php require_once "assets/partials/header.php"; ?>
-    <?php require_once("assets/partials/nav.php");?>
+    <?php require_once "assets/partials/nav.php" ;?>
 
-    <div class="container">
+    <div class="container page-container">
         <div class="info-title-group">
             <h2>Groups</h2>
         </div>

@@ -8,7 +8,7 @@ if (isset($_SESSION['group_id'])) {
 }
 
 // require config file
-include '../../../../hidden/config.php';
+include '../../../hidden/config.php';
 
 $items = [];
 $itemDate = $_GET['itemDate'];

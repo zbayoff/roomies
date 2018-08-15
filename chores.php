@@ -6,7 +6,7 @@ if (!isset($_SESSION['email']) || empty($_SESSION['email'])) {
 }
 
 // require config file
-include '../../../hidden/config.php';
+include '../../hidden/config.php';
 
 // define variables
 $groupID = $_SESSION['group_id'];
@@ -78,7 +78,7 @@ mysqli_close($link);
 
     <!-----End Nav----->
 
-    <div class="container-fluid">
+    <div class="container-fluid page-container">
         <div class="row justify-content-center">
             <div class="info-block col-xl-6 col-lg-8 col-md-10">
                 <div id="chore-header" class="info-header">

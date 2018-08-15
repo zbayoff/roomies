@@ -1,7 +1,7 @@
 <?php 
 
 // require config file
-require_once '../../../hidden/config.php';
+require_once '../../hidden/config.php';
 
 
 // Define variables and initialize
